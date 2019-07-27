@@ -7,7 +7,7 @@
     "tsc:w": "tsc -w",
     "build": "npm run tsc",
     "dev": "npm run tsc:w",
-    "start": "npm run build \"cd build\" \"node index.js"
+    "start": "npm run build && cd build && node index.js"
   },
   "keywords": [
     "typescript",
@@ -24,7 +24,8 @@
     "express": "^4.17.1",
     "multer": "^1.4.2",
     "request": "^2.88.0",
-    "sync-request": "^6.1.0"
+    "sync-request": "^6.1.0",
+    "typescript": "^3.5.3"
   },
   "devDependencies": {
     "@types/express": "^4.17.0",
